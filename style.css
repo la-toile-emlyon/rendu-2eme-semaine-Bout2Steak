@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    background-image: url(assets/image-header.png);
+    background-size: cover;
+    background-position: center;
+    height: 1441px;
+    width: 100%;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;   
+    justify-content: space-between;
+}
+.navi nav{
+    display: flex;
+    font-size: 18px;
+    gap: 30px;
+    align-items: center;
+}
+
+.elTitre {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    margin-top: 400px;
+}
+
+span{
+    display: block;    
+}
+span.title1{
+    font-size: 53px;
+}
+span.title2{
+    font-size: 160px;
+}
+h1{
+        line-height: 1.1;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.hero p{
+    font-size: 28px;
+}
+.date_hero{
+    font-weight: bolder;
+}
+.button_hero{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    
+}
+.button_hero a{
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.billet{
+    background-color: black;
+}
+.billet1{
+    background-color: white;
+    color: black;
+}
