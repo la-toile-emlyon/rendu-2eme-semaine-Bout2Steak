@@ -10,6 +10,7 @@ a{
 body{
     color: white;
     font-family: "DM Sans", sans-serif;
+    background-color: black;
 }
 header{
     background-image: url(assets/image-header.png);
@@ -30,7 +31,6 @@ header{
     gap: 30px;
     align-items: center;
 }
-
 .elTitre {
     width: fit-content;
     display: flex;
@@ -39,7 +39,6 @@ header{
     align-items: start;
     margin-top: 400px;
 }
-
 span{
     display: block;    
 }
@@ -64,12 +63,11 @@ h1{
 }
 .button_hero{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     margin-top: 30px;
-    
 }
 .button_hero a{
-    padding: 10px;
+    padding: 10px 35px;
     font-weight: 700;
     border-radius: 5px;
 }
@@ -79,4 +77,251 @@ h1{
 .billet1{
     background-color: white;
     color: black;
+}
+.container{
+    max-width: 1303px;
+    margin: 400px auto;
+    padding: 101px 119px;
+    max-height: 50vh;
+}
+.text2 h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+.text2 p{
+    font-size: 30px;
+    line-height: 1.3;
+}
+.text2{
+    margin-bottom: 400px;
+}
+.img2{
+    background-image: url(assets/section-img.png);
+    background-size: cover;
+    min-height: 150vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lineUp{
+    background-color: black;
+    background-size:cover;
+    color: white;
+    min-height: 60vh;
+    max-width: 600px;
+    margin: 80px auto;
+    text-align: center;
+}
+.lineUp h2{
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.lineUp ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lineUp ul li{
+  text-align: left;
+  padding: 15px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.BilletterieDEUX {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 25px;
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+  border: solid white 1px;
+  border-radius: 2px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: 5s;
+}
+.BilletterieDEUX:hover {
+  background-color: black;
+  color: white;
+}
+.topLine{
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
+.logoProduit{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+}
+.placementDeProduit{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(assets/banniere-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+    background-position: center;
+}
+.form1{
+  background-color: black;
+  padding: 48px 20px 80px;
+  box-sizing: border-box;
+}
+.form1 h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: white;
+  margin: 0 0 20px;
+}
+.form1 p{
+  text-align: left;
+  font-size: 13px;
+  max-width: 480px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+.linkMail{
+  color: lightblue;
+  text-decoration: none;
+}
+.linkMail:hover{
+  text-decoration: underline;
+}
+.form1 form{
+  max-width: 480px;
+  margin: 0 auto;
+}
+.fullName_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.mail_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.phone_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.message_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.fullName_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.mail_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.phone_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.message_info label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+#fullName_ID{
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#email_ID{
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#phone_ID {
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+#fullName_ID::placeholder{
+  color: #666666;
+}
+#email_ID::placeholder{
+  color: #666666;
+}
+#phone_ID::placeholder{
+  color: #666666;
+}
+#message_ID {
+  background-color: #2b2b2b;
+  border: 1px solid #444444;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  padding: 9px 12px;
+  resize: vertical;
+  min-height: 120px;
+}
+#message_ID::placeholder{
+  color: #666666;
+}
+.form1 button[type="submit"]{
+  display: block;
+  margin: 20px auto 0;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.form1 button[type="submit"]:hover{
+  transition: 10s;
+  background-image: url(assets/IMG-20211226-WA0007-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+}
+.footer1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+.newsLetter{
+  display:flex;
+  flex-direction: row;
+}
+.footerLabel{
+  display: flex;
+  flex-direction: column;  
+}
+.emailFooter{
+  font-size: 20px;
+}
+.emailFooter a:hover{
+  text-decoration: underline;
+}
+
+.footer1 button[type="submit"]{
+
 }
